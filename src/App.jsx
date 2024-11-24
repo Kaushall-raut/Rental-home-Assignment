@@ -1,4 +1,5 @@
 import { Discover } from "./components/Discover-section";
+import { ExploreSection } from "./components/Explore-section";
 import {Herosection} from "./components/Hero-section";
 
 export const App = () => {
@@ -6,6 +7,7 @@ export const App = () => {
     <>
       <Herosection />
       <Discover/>
+      <ExploreSection/>
     </>
   );
 };
