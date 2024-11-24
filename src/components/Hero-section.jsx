@@ -5,7 +5,7 @@ import { Btn } from "./Hero-btn";
 export const Herosection = () => {
   return (
     <div className="container">
-      <div>
+      <div >
         <div className="title">
           <div>
             <h1>

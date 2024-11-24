@@ -56,8 +56,8 @@ span {
   width: 4.53px;
   color: #253046;
   font-size: 25px;
-  top: 8.6rem;
-  right: 16rem;
+  top: 14rem;
+  right: 15rem;
 }
 .nav{
     display: flex;
@@ -147,4 +147,8 @@ nav{
   margin-top: 2rem;
   align-items: center;
   justify-content: center;
+}
+.title{
+
+  padding-top:5rem ;
 }
