@@ -66,12 +66,14 @@ span {
     width:590px;
     height: 28.67px;
     /* gap: 20rem; */
+    /* margin-top: -10rem; */
  
 }
 li{
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 600;
+    /* margin-top: 0rem; */
     margin: 1rem;
     /* width:587px; */
     height: 28.67px;

@@ -21,7 +21,7 @@ export const Herosection = () => {
           </div>
         </div>
         <div className="navbar">
-          <div className="nav">
+          <div className="nav" style={{height:"76px"}}>
             <nav>
               <ul>
                 <li>
