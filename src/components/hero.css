@@ -114,3 +114,37 @@ nav{
     border-radius: 16px;
   }
 }
+.imgContent{
+  display: flex;
+  justify-content: space-between;
+ margin-top: 0.5rem;
+  & .location{
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  & .rating{
+    color:blue;
+    & p{
+      color:#222222;
+      font-weight: 400;
+    }
+  }
+}
+.seperator{
+  column-gap:10rem;
+}
+.btn{
+  background-color: #0D28AB;
+  height: 45px;
+  width:134px;
+  border-radius: 95px;
+  color: #ffffff;
+  border: none;
+}
+.btnContainer{
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
