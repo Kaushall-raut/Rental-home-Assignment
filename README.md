@@ -1,3 +1,3 @@
 # React + Vite
 
-A simple webpage Made for practising css .
+A simple static webpage created in react  .
