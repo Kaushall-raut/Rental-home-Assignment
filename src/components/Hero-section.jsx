@@ -1,5 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import "./hero.css";
+import { HeroImage } from "./Hero-Image";
 export const Herosection = () => {
   return (
     <div className="container">
@@ -53,6 +54,7 @@ export const Herosection = () => {
             </span>
           </div>
         </div>
+        <HeroImage/>
       </div>
     </div>
   );
