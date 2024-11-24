@@ -29,9 +29,10 @@ span {
   align-items: center;
 }
 .navbar {
+  gap:5rem;
     margin:2rem;
   /* background-color: #b138c9; */
-  width: 1282px;
+  width: 1300px;
   height: 48px;
   & input {
     padding: 22.93px;
@@ -43,6 +44,7 @@ span {
       color: #888888;
     }
   }
+
   display: flex;
   justify-content: end;
   align-items: flex-end;
@@ -54,4 +56,47 @@ span {
   color: #253046;
   font-size: 25px;
   top: 8.6rem;
+  right: 16rem;
+}
+.nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width:590px;
+    height: 28.67px;
+    /* gap: 20rem; */
+ 
+}
+li{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1rem;
+    /* width:587px; */
+    height: 28.67px;
+display: inline;
+    list-style: none;
+    & a{
+        text-decoration: none;
+        color: #222222;
+      
+    }
+    
+    & ul{
+        padding:2rem;
+    }
+}
+ a:hover{
+  border: 1px solid blue;
+  padding:1.5px;
+  color: blue;
+  border-radius: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:677px;
+    height: 28.67px;
+    margin-right: 0.1rem;
 }

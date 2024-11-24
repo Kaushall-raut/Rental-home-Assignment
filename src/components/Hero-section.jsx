@@ -19,10 +19,39 @@ export const Herosection = () => {
           </div>
         </div>
         <div className="navbar">
-          <input type="text" placeholder="Find your city" />
-          <span className="icon">
-          <CiSearch />
-          </span>
+          <div className="nav">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#">Goa</a>
+                </li>
+                <li>
+                  <a href="#">Mumbai</a>
+                </li>
+                <li>
+                  <a href="#">Kolkata</a>
+                </li>
+                <li>
+                  <a href="#">Jaipur</a>
+                </li>
+                <li>
+                  <a href="#">Banglore </a>
+                </li>
+                <li>
+                  <a href="#">Kerala </a>
+                </li>
+                <li>
+                  <a href="#">Pune </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <input type="text" placeholder="Find your city" />
+            <span className="icon">
+              <CiSearch />
+            </span>
+          </div>
         </div>
       </div>
     </div>
